@@ -54,7 +54,7 @@
 ```mermaid
 graph TD
     A[Initial Research] --> B[Proof of Concept]
-    B --> C[Evasion Development]
+    B --> C[Integration into FeebleDream]
     C --> D[Testing & Validation]
     D --> E[Responsible Disclosure]
     E --> F[Publication & Documentation]
@@ -68,11 +68,14 @@ graph TD
 
 ## 📝 Knowledge Sharing
 
-### Recent Blog Posts
+### Recent Work
 - Advanced EDR Evasion Techniques
 - Kernel-Level Persistence Mechanisms  
 - Novel C2 Communication Channels
 - Audio Steganography in Malware
+- IOMMU Mapping for Misconfiguration
+- RIP manipulation for greater device exposure
+- BYOVD Hunting with several 0-days and rediscoveries found
 
 *Visit my [blog](https://SplineUser.github.io) for detailed technical writeups and research findings.*
 

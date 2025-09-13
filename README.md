@@ -107,9 +107,7 @@ I'm always interested in collaborating on:
 - 🔍 Vulnerability research initiatives
 
 ### 📬 Let's Connect!
-- 📧 Email: [your.email@domain.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐦 Twitter: [@YourHandle]
+- 📧 Email: [Priyan29@pm.me]
 - 📝 Blog: [SplineUser.github.io](https://SplineUser.github.io)
 
 ---

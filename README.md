@@ -64,7 +64,7 @@ graph TD
 
 🎓 **Google Cybersecurity Certificate** - Coursera  
 📊 **VirusTotal Research**: Consistently achieving 0/72 detection rates  
-🔍 **Vulnerability Research**: Active in responsible disclosure programs
+🔍 **Vulnerability Research**: Four 0-days discovered aswell as re-discoveries such as CVE-2021-3438 & CVE-2024-33219
 
 ## 📝 Knowledge Sharing
 
@@ -76,6 +76,7 @@ graph TD
 - IOMMU Mapping for Misconfiguration
 - RIP manipulation for greater device exposure
 - BYOVD Hunting with several 0-days and rediscoveries found
+- Vuln Stacking for higher primitives
 
 *Visit my [blog](https://SplineUser.github.io) for detailed technical writeups and research findings.*
 

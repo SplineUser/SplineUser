@@ -13,7 +13,6 @@
 🛡️ EDR/AV Evasion & Sandbox Detection
 🔧 Kernel-Level Security Research (Ring 0)
 💻 Malware Analysis & Reverse Engineering
-🎵 Novel C2 Communication Methods
 ⚡ Exploit Development & Vulnerability Research
 ```
 
@@ -32,12 +31,17 @@
 - **Kernel Development**: Driver research, IOCTL hunting
 - **Cryptography**: AES encryption, XOR schemes, API hashing
 
-## 🔬 Current Research Projects
+## 🔬 Recent work
+- **CVE-2025-60419**
+- **Audio-based Steganography Research paper**
+- **APT Simulation Development**
+- **Custom Binary Protocol Engineering for C2 communication**
 
 ### 🎭 Advanced Evasion Techniques
 - **Sandbox Detection & Bypass**: Multi-layered detection mechanisms
-- **Memory Manipulation**: Two-phased permissions (RW → X), in-memory execution
+- **Memory Manipulation**: DEP Bypass through drivers
 - **Signature Evasion**: Polymorphic code generation, binary stripping
+- **Kernel Access**: Why worry about evasion when you have Kernel CE ;)
 
 ### 🎵 Novel C2 Communication
 - **Audio-based Payloads**: .wav file modulation for covert storage
@@ -64,7 +68,7 @@ graph TD
 
 🎓 **Google Cybersecurity Certificate** - Coursera  
 📊 **VirusTotal Research**: Consistently achieving 0/72 detection rates  
-🔍 **Vulnerability Research**: Four 0-days discovered aswell as re-discoveries such as CVE-2021-3438 & CVE-2024-33219
+🔍 **Vulnerability Research**: CVE-2025-60419 and four 0-days discovered aswell as re-discoveries such as CVE-2021-3438 & CVE-2024-33219
 
 ## 📝 Knowledge Sharing
 
@@ -106,7 +110,7 @@ class SecurityResearcher:
 
 I'm always interested in collaborating on:
 - 🔐 Security research projects
-- 🛡️ Defensive tool development  
+- 🛡️ Defensive and Offensive tool development  
 - 📚 Educational security content
 - 🔍 Vulnerability research initiatives
 

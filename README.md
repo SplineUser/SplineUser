@@ -46,4 +46,5 @@ A few themes I care about:
 ## Contact
 
 - Blog: [SplineUser.github.io](https://SplineUser.github.io)
-- Email: Priyan29@pm.me
+- Email: contact@splineuser.com
+- Website: www.splineuser.com

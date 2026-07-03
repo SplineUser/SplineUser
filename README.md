@@ -1,129 +1,49 @@
-# 👋 Hello, I'm Priyan
+# Priyan S
 
-[![Blog](https://img.shields.io/badge/Blog-SplineUser.github.io-blue?style=for-the-badge&logo=github)](https://SplineUser.github.io)
+Security researcher working on Windows internals, binary analysis, vulnerability research, and exploitability research.
 
-## 🔐 Security Research & Engineering
+Most of my work starts with an unclear technical problem: a crash, a primitive, a strange interface, an old technique, or a security boundary worth investigating. I build labs, trace behavior with tools like Ghidra and WinDBG, test assumptions, and document what actually happens.
 
-**Computer Science Engineering Student** passionate about offensive and defensive cybersecurity research. I specialize in advanced threat simulation, evasion techniques, and low-level system security.
+[Blog](https://SplineUser.github.io)
 
-### 🎯 Research Focus Areas
+## Selected Work
 
-```
-🔍 Advanced Persistent Threat (APT) Development
-🛡️ EDR/AV Evasion & Sandbox Detection
-🔧 Kernel-Level Security Research (Ring 0)
-💻 Malware Analysis & Reverse Engineering
-⚡ Exploit Development & Vulnerability Research
-```
+- **CVE-2025-60419** — Realtek driver vulnerability research
+- **Nullcon Goa 2026** — Speaker for “Demystifying Driver Research”
+- **Acoustic Shellcodes** — research into audio-based shellcode transformation
+- **RIP Manipulation Research** — exploring device exposure and reachability through runtime control-flow manipulation
+- **Windows driver research** — IOCTL analysis, primitive discovery, and exploitability notes
 
-## 🛠️ Technical Arsenal
+## Areas
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-654FF0?style=for-the-badge&logo=assemblyscript&logoColor=white)
+- Windows internals
+- Vulnerability research
+- Exploitability analysis
+- Binary reverse engineering
+- Kernel-adjacent security research
+- Security research tooling
+- Technical writeups and research reports
 
-### Security Tools & Frameworks
-- **Reverse Engineering**: Ghidra, WinDBG, IDA Pro
-- **Web Security**: Burp Suite, Custom Fuzzers
-- **Malware Analysis**: Custom toolchain development
-- **Kernel Development**: Driver research, IOCTL hunting
-- **Cryptography**: AES encryption, XOR schemes, API hashing
+## Tools / Languages
 
-## 🔬 Recent work
-- **CVE-2025-60419**
-- **Audio-based Steganography Research paper**
-- **APT Simulation Development**
-- **Custom Binary Protocol Engineering for C2 communication**
+- **Languages:** C, C++, Python
+- **Reverse Engineering / Debugging:** Ghidra, WinDBG, IDA Pro
+- **Security Testing:** Burp Suite, custom scripts, lab workflows
+- **Systems:** Windows APIs, Windows internals, Linux
 
-### 🎭 Advanced Evasion Techniques
-- **Sandbox Detection & Bypass**: Multi-layered detection mechanisms
-- **Memory Manipulation**: DEP Bypass through drivers
-- **Signature Evasion**: Polymorphic code generation, binary stripping
-- **Kernel Access**: Why worry about evasion when you have Kernel CE ;)
+## Research Notes
 
-### 🎵 Novel C2 Communication
-- **Audio-based Payloads**: .wav file modulation for covert storage
-- **YouTube Audio C2**: Innovative command channel via audio signatures
-- **Steganographic Methods**: Image and audio-based data exfiltration
+I write about security research, reverse engineering, Windows internals, vulnerability discovery, and experiments that did or did not work.
 
-### ⚡ Kernel Security Research
-- **BYOVD Techniques**: Bring Your Own Vulnerable Driver exploitation
-- **Hardware Security**: IOMMU bypass research, PCI manipulation
-- **Anti-Virus Targeting**: Research on security driver vulnerabilities
+A few themes I care about:
 
-## 📈 Research Methodology
+- turning vague technical questions into testable experiments
+- understanding why a primitive works or fails
+- comparing static analysis with runtime behavior
+- documenting limitations instead of hiding them
+- building small tools to make research less manual
 
-```mermaid
-graph TD
-    A[Initial Research] --> B[Proof of Concept]
-    B --> C[Integration into FeebleDream]
-    C --> D[Testing & Validation]
-    D --> E[Responsible Disclosure]
-    E --> F[Publication & Documentation]
-```
+## Contact
 
-## 🏆 Certifications & Achievements
-
-🎓 **Google Cybersecurity Certificate** - Coursera  
-📊 **VirusTotal Research**: Consistently achieving 0/72 detection rates  
-🔍 **Vulnerability Research**: CVE-2025-60419 and four 0-days discovered aswell as re-discoveries such as CVE-2021-3438 & CVE-2024-33219
-
-## 📝 Knowledge Sharing
-
-### Recent Work
-- Advanced EDR Evasion Techniques
-- Kernel-Level Persistence Mechanisms  
-- Novel C2 Communication Channels
-- Audio Steganography in Malware
-- IOMMU Mapping for Misconfiguration
-- RIP manipulation for greater device exposure
-- BYOVD Hunting with several 0-days and rediscoveries found
-- Vuln Stacking for higher primitives
-
-*Visit my [blog](https://SplineUser.github.io) for detailed technical writeups and research findings.*
-
-## 🔄 Current Focus
-
-```python
-class SecurityResearcher:
-    def __init__(self):
-        self.current_focus = [
-            "Advanced Persistent Threat simulation",
-            "Zero-day research and exploitation",
-            "Novel evasion technique development",
-            "Kernel security mechanisms"
-        ]
-    
-    def research_philosophy(self):
-        return "Understand to defend, simulate to improve"
-```
-
-## 📊 GitHub Stats
-
-![SplineUser's GitHub stats](https://github-readme-stats.vercel.app/api?username=SplineUser&show_icons=true&theme=dark&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SplineUser&layout=compact&theme=dark&hide_border=true)
-
-## 🤝 Collaboration & Contact
-
-I'm always interested in collaborating on:
-- 🔐 Security research projects
-- 🛡️ Defensive and Offensive tool development  
-- 📚 Educational security content
-- 🔍 Vulnerability research initiatives
-
-### 📬 Let's Connect!
-- 📧 Email: [Priyan29@pm.me]
-- 📝 Blog: [SplineUser.github.io](https://SplineUser.github.io)
-
----
-
-<div align="center">
-
-**"In security research, understanding the attack is the first step to building better defenses"**
-
-![Profile Views](https://komarev.com/ghpvc/?username=SplineUser&color=blueviolet&style=for-the-badge)
-
-</div>
+- Blog: [SplineUser.github.io](https://SplineUser.github.io)
+- Email: Priyan29@pm.me
